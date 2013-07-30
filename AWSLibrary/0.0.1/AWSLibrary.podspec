@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
   s.license      = '?'
   s.author       = { "badeleux" => "badeleux@gmail.com" }
   s.source       = { :git => "https://github.com/Holdapp/AWSLibrary.git", :tag => "#{s.version}" }
-  s.source_files = 'AWSlibrary/**/*'
+  s.source_files = 'AWSLibrary/*', 'AWSLibrary/*/*'
   s.requires_arc = true
 
   s.platform     = :ios, '5.0'

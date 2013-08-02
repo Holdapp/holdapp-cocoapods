@@ -18,13 +18,3 @@ Pod::Spec.new do |s|
   s.dependency 'AFDownloadRequestOperation'
   s.dependency 'HoldappMKStoreKit'
 end
-
-
-post_install do |installer_representation|
-  installer_representation.project.targets.each do |target|
-    target.build_configurations.each do |config|
-      config.build_settings['GCC_PREPROCESSOR_DEFINITIONS'] = '_AFNETWORKING_PIN_SSL_CERTIFICATES_'
-    end
-  end
-end
-

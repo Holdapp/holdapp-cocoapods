@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '5.0'
 
-  s.dependency 'AFNetworking'
+  s.dependency 'AFNetworking', '~< 2.0'
   s.dependency 'Reachability'
   s.dependency 'ZipArchive'
   s.dependency 'AFDownloadRequestOperation'

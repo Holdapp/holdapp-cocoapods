@@ -9,6 +9,9 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Holdapp/AWSLibrary.git", :tag => "#{s.version}" }
   s.source_files = 'AWSLibrary/*.{h,m}', 'AWSLibrary/*/*.{h,m}'
   s.requires_arc = true
+  s.prefix_header_contents = <<-EOS
+      #import <SystemConfiguration/SystemConfiguration.h>
+    EOS
 
   s.platform     = :ios, '5.0'
 

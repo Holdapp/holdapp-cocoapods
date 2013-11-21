@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.license      = 'MIT'
   s.author       = { "badeleux" => "badeleux@gmail.com" }
   s.platform     = :ios, '6.0'
-  s.source       = { :git => "https://gitlab.com/holdapp/kbdatepicker.gi", :tag => "0.0.1" }
+  s.source       = { :git => "https://gitlab.com/holdapp/kbdatepicker.git", :tag => "0.0.1" }
   s.source_files  = 'Classes', 'Classes/**/*.{h,m}'
    s.requires_arc = true
    s.dependency 'iCarousel'

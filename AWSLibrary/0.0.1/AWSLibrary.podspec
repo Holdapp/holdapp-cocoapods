@@ -15,6 +15,6 @@ Pod::Spec.new do |s|
   s.dependency 'AFNetworking'
   s.dependency 'Reachability'
   s.dependency 'ZipArchive'
-  s.dependency 'AFDownloadRequestOperation'
+  s.dependency 'AFDownloadRequestOperation', '< 2.0'
   s.dependency 'HoldappMKStoreKit'
 end

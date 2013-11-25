@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.author       = { "badeleux" => "badeleux@gmail.com" }
   s.platform     = :ios, '6.0'
   s.source       = { :git => "https://gitlab.com/holdapp/kbspringmenu.git", :tag => "0.0.1" }
-  s.source_files  = 'KBSpringMenu/KBSpringMenu/*.{h,m}'
+  s.source_files  = 'KBSpringMenu/KBSpringMenu/*.{h,m,xib}'
    s.requires_arc = true
    s.dependency 'JNWSpringAnimation'
 end

@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.dependency 'AFNetworking', '1.3.1'
   s.dependency 'Reachability'
-  s.dependency 'SSZipArchive', :git => 'https://github.com/Holdapp/ssziparchive.git'
+  s.dependency 'SSZipArchive'
   s.dependency 'AFDownloadRequestOperation', '< 2.0.0'
   s.dependency 'HoldappMKStoreKit'
 end

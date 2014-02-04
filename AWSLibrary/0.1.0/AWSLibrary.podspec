@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   s.license      = '?'
   s.author       = { "badeleux" => "badeleux@gmail.com" }
-  s.source       = { :git => "https://gitlab.com/holdapp/awslibrary.git", :tag => "0.0.9" }
+  s.source       = { :git => "https://gitlab.com/holdapp/awslibrary.git", :tag => "0.1.0" }
   s.source_files = 'AWSLibrary/*.{h,m}', 'AWSLibrary/*/*.{h,m}'
   s.requires_arc = true
   s.prefix_header_contents = <<-EOS

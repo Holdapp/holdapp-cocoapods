@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "AWSLibrary"
-  s.version      = "0.4.6"
+  s.version      = "0.4.7"
   s.summary      = "AWSLibrary is a library which handles store receipts which are stored in AWS Servers."
   s.homepage     = "https://gitlab.com/holdapp/awslibrary"
 
